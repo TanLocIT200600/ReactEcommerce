@@ -10,6 +10,9 @@ const Home = () => {
       {/*start slider */}
       <HeroSlider
         data={heroSliderData}
+        control={true}
+        auto={false}
+        timeOut={5000}
       />
       {/* end slider */}
     </Helmet>
